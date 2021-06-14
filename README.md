@@ -25,9 +25,10 @@ MATLAB
   ![pms1000_ra](https://user-images.githubusercontent.com/46943965/121766791-50763380-cb09-11eb-9bef-7608e1afa9ce.jpg)
   ![pms1000_pointclouds](https://user-images.githubusercontent.com/46943965/121766798-5835d800-cb09-11eb-883c-e7c1cb3714c0.jpg)
  
-4. Manipulate the algorithm parameters in below script to obtain the desired pointcloud results:
+4. You can manipulate the algorithm parameters of below commands in "./utils/cfar_RV.m" script to obtain the desired point-cloud results:
     ```
-    ./utils/cfar_RV.m
+    x_detected = cfar_ca1D_square(Dopdata_sum(rani,:), 4, 7, Pfa, 0, 0.7);
+    y_detected = cfar_ca1D_square(Dopdata_sum(:, C(1,dopi)), 4, 8, Pfa, 0, 0.7);
     ```
 
 ## Run codes for generating micro-Doppler maps
