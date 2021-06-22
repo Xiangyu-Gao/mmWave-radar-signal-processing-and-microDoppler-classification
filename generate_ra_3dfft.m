@@ -42,6 +42,7 @@ set_frame_number = 30;
 frame_start = 1;
 frame_end = set_frame_number;
 Is_Windowed = 1;% 1==> Windowing before doing range and angle fft
+Is_plot_rangeDop = 1;
 
 % specify data name and load data as variable data_frames
 seq_name = 'pms1000_30fs.mat';
@@ -75,6 +76,11 @@ for i = frame_start:frame_end
     Dopplerdata_odd = fft_doppler(Rangedata_odd, fft_Vel, 0);
     Dopplerdata_even = fft_doppler(Rangedata_even, fft_Vel, 0);
     Dopdata_sum = squeeze(mean(abs(Dopplerdata_odd), 2));
+    
+    % Plot range-Doppler image
+    if Is_plot_rangeDop
+        plot_rangeDop(Dopdata_sum,rng_grid,vel_grid);
+    end
     
     % CFAR detector on Range-Velocity to detect targets 
     % Output format: [doppler index, range index(start from index 1), ...
