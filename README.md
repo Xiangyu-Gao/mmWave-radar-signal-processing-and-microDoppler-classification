@@ -11,7 +11,7 @@ year={2019},  volume={},  number={},  pages={1-6},  doi={10.1109/IEEECONF44664.2
 ## Software requirement
 MATLAB
 
-## Run codes for generating range-angle maps and 3D point clouds
+## Run codes for generating range-angle maps, range-Doppler maps, and 3D point clouds
 1. Customize your testbed/FMCW parameter in script: 
     ```
     ./config/get_params_value.m
@@ -20,9 +20,10 @@ MATLAB
     ```
     generate_ra_3dfft.m
     ```
-3. Run 'generate_ra_3dfft.m' script to get results. For example, the range-angle image and detected 3D point clouds for input data 'pms1000_30fs' are shown below:
+3. Run 'generate_ra_3dfft.m' script to get results. For example, the range-angle image, range-Doppler image, and detected 3D point clouds for input data 'pms1000_30fs' are shown below:
 
   ![pms1000_ra](https://user-images.githubusercontent.com/46943965/121766791-50763380-cb09-11eb-9bef-7608e1afa9ce.jpg)
+  ![pms1000_rd](https://user-images.githubusercontent.com/46943965/123009986-9ab1ad00-d372-11eb-8541-d5469228868b.jpg)
   ![pms1000_pointclouds](https://user-images.githubusercontent.com/46943965/121766798-5835d800-cb09-11eb-883c-e7c1cb3714c0.jpg)
  
 4. You can manipulate the algorithm parameters of below commands in "./utils/cfar_RV.m" script to obtain the desired point-cloud results:
@@ -30,7 +31,11 @@ MATLAB
     x_detected = cfar_ca1D_square(Dopdata_sum(rani,:), 4, 7, Pfa, 0, 0.7);
     y_detected = cfar_ca1D_square(Dopdata_sum(:, C(1,dopi)), 4, 8, Pfa, 0, 0.7);
     ```
-
+5. It is optional to stop the range-Doppler image by setting below flag in codes to 0: 
+    ```
+    Is_plot_rangeDop = 1;
+    ```
+    
 ## Run codes for generating micro-Doppler maps
 1. Customize your testbed/FMCW parameter in script: 
     ```
