@@ -1,7 +1,7 @@
 # mmWave-radar-signal-processing-and-microDoppler-classification
 This is a repository for codes and template data of paper "Experiments with mmWave Automotive RadarTest-bed"
 
-Please cite our paper with below bibtex when you use the codes.
+Please cite our paper with below bibtex when you find the codes useful.
 
 @INPROCEEDINGS{9048939,  author={Gao, Xiangyu and Xing, Guanbin and Roy, Sumit and Liu, Hui}, 
 booktitle={2019 53rd Asilomar Conference on Signals, Systems, and Computers}, 
