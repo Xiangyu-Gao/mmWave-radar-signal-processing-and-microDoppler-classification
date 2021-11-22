@@ -47,8 +47,8 @@ La = 5; % length of cropped region along angle
 Ang_seq = [2,5,8,11,14]; % dialated angle bin index for cropping
 veloc_bin_norm = 2; % velocity normaliztion term for DBSCAN
 dis_thrs = [20, 16, 20]; % range_thrs, veloc_thrs, angle_thrs for DBSCAN
-WINDOW =  128; % STFT parameters
-NOVEPLAP = 120; % STFT parameters
+WINDOW =  255; % STFT parameters
+NOVEPLAP = 240; % STFT parameters
 
 % specify data name and load data as variable data_frames
 seq_name = 'pms1000_30fs.mat';

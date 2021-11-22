@@ -55,8 +55,8 @@ MATLAB
     Lr = 11; % length of cropped region along range
     La = 5; % length of cropped region along angle
     Ang_seq = [2,5,8,11,14]; % dialated angle bin index for cropping
-    WINDOW =  128; % STFT parameters
-    NOVEPLAP = 120; % STFT parameters
+    WINDOW =  255; % STFT parameters
+    NOVEPLAP = 240; % STFT parameters
     ```
 
 ## Continue to update the repos

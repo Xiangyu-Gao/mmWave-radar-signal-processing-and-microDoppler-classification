@@ -1,2 +1,12 @@
 
 generate_ra_3dfft.asv
+*.mat
+template data/trained_model/epoch10/checkpoint
+template data/trained_model/epoch10/model.data-00000-of-00001
+template data/trained_model/epoch10/model.index
+template data/trained_model/epoch10/model.meta
+template data/trained_model/new_epoch10.zip
+template data/trained_model/new_epoch10/checkpoint
+template data/trained_model/new_epoch10/model.data-00000-of-00001
+template data/trained_model/new_epoch10/model.index
+template data/trained_model/new_epoch10/model.meta
