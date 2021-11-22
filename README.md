@@ -65,11 +65,7 @@ MATLAB, Python 3.6, Tensorflow 2.0
 1. Download the template training data, testing data, and trained model from the Google Drive with below link:
     ```
     https://drive.google.com/file/d/1Lbfd5h8bJASUcPU6_YJ-7JnGcfJdaocy/view?usp=sharing
-    ```
-    ```
     https://drive.google.com/file/d/1fZQw1uUCwAa-rW_cvX4I0Nx2OaBHW9Ib/view?usp=sharing 
-    ```
-    ```
     https://drive.google.com/file/d/1qYIlSGqfva4S476ADKXTrQV2uXIH1mK6/view?usp=sharing
     ```
     *Note that we select **part of our training and testing set** for your use here and the model was trainied with **whole complete** training set*. 
