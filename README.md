@@ -1,5 +1,5 @@
 # mmWave-radar-signal-processing-and-microDoppler-classification
-This is a repository for codes and template data of paper "Experiments with mmWave Automotive Radar Test-bed"
+This is a repository for codes and template data of paper "Experiments with mmWave Automotive Radar Test-bed" https://arxiv.org/pdf/1912.12566.pdf
 
 Please cite our paper with below bibtex when you find the codes useful.
 
