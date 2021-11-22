@@ -11,7 +11,7 @@ title={Experiments with mmWave Automotive Radar Test-bed},
 year={2019},  volume={},  number={},  pages={1-6},  doi={10.1109/IEEECONF44664.2019.9048939}}
 
 ## Software requirement
-MATLAB, Python 3.6, Tensorflow 2.0
+MATLAB, Python 3.6, Tensorflow 2.0, Jupyter Notebook
 
 ## Run codes for generating range-angle maps, range-Doppler maps, and 3D point clouds
 1. Customize your testbed/FMCW parameter in script: 
