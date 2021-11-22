@@ -68,7 +68,7 @@ MATLAB, Python 3.6, Tensorflow 2.0
     https://drive.google.com/file/d/1fZQw1uUCwAa-rW_cvX4I0Nx2OaBHW9Ib/view?usp=sharing 
     https://drive.google.com/file/d/1qYIlSGqfva4S476ADKXTrQV2uXIH1mK6/view?usp=sharing
     ```
-    *Note that we select part of our training and testing set for your use here and the model is trainied with whole complete training set*. 
+    *Note that we select **part of our training and testing set** for your use here and the model is trainied with **whole complete** training set*. 
 
     *You may use the above algorithm "generate_microdoppler_stft.m" to create your own training and testing set (micro-Doopler images)*.
 
