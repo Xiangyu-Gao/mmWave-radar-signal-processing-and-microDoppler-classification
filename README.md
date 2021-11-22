@@ -61,4 +61,28 @@ MATLAB, Python 3.6, Tensorflow 2.0
     NOVEPLAP = 240; % STFT parameters
     ```
 
-## Continue to update the repos
+## Train and Test VGG16 classifier 
+1. Download the template training data, testing data, and trained model from the Google Drive with below link:
+    ```
+    https://drive.google.com/file/d/1Lbfd5h8bJASUcPU6_YJ-7JnGcfJdaocy/view?usp=sharing
+    https://drive.google.com/file/d/1fZQw1uUCwAa-rW_cvX4I0Nx2OaBHW9Ib/view?usp=sharing 
+    https://drive.google.com/file/d/1qYIlSGqfva4S476ADKXTrQV2uXIH1mK6/view?usp=sharing
+    ```
+    *Note that we select part of our training and testing set for your use here and the model is trainied with whole complete training set*. 
+
+    *You may use the above algorithm "generate_microdoppler_stft.m" to create your own training and testing set (micro-Doopler images)*.
+
+2. Put the decompressed training data, testing data, and trained model in "template data" folder as follow:
+    ```
+    '.\template data\test_data_part'
+    '.\template data\train_data_part'
+    '.\template data\trained_model\new_epoch10'
+    ```
+3. Run the training:
+    ```
+    train_classify.ipynb
+    ```
+5. Run the testing
+    ```
+    test_classify.ipynb
+    ```
