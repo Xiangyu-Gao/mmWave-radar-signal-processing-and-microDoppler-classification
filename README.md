@@ -74,8 +74,8 @@ MATLAB, Python 3.6, Tensorflow 2.0, Jupyter Notebook
 
 2. Put the decompressed training data, testing data, and trained model in "template data" folder as follow:
     ```
-    '.\template data\test_data_part'
     '.\template data\train_data_part'
+    '.\template data\test_data_part'
     '.\template data\trained_model\new_epoch10'
     ```
 3. Run the training:
