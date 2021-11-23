@@ -3,14 +3,15 @@ import numpy as np
 import scipy.io as spio
 import os
 
-_author__ = “Xiangyu Gao”
-__copyright__ = “Copyright 2021, The Radar Perception project”
-__credits__ = [“Xiangyu Gao”]
-__license__ = “MPL 2.0”
-__version__ = “0.1.0”
-__maintainer__ = “Xiangyu Gao”
-__email__ = “xygao@uw.edu”
-__status__ = “Dev”
+_author__ = "Xiangyu Gao"
+__copyright__ = "Copyright 2021, The Radar Perception project"
+__credits__ = ["Xiangyu Gao"]
+__license__ = "MPL 2.0"
+__version__ = "0.1.0"
+__maintainer__ = "Xiangyu Gao"
+__email__ = "xygao@uw.edu"
+__status__ = "Dev"
+
 
 def get_session():
     """Create a session that dynamically allocates memory."""

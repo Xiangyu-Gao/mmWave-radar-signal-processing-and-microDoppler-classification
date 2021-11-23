@@ -2,6 +2,15 @@ import tensorflow.compat.v1 as tf
 
 num_classes = 3
 
+_author__ = "Xiangyu Gao"
+__copyright__ = "Copyright 2021, The Radar Perception project"
+__credits__ = ["Xiangyu Gao"]
+__license__ = "MPL 2.0"
+__version__ = "0.1.0"
+__maintainer__ = "Xiangyu Gao"
+__email__ = "xygao@uw.edu"
+__status__ = "Dev"
+
 
 def VGG16(x, keep_prob):    
     # first conv and pool pair

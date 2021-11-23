@@ -8,14 +8,15 @@ from classifier.networks import VGG16
 from classifier.utils import fetch_data, mini_batch, get_session, fetch_batch
 from config.classifier_config import network_config
 
-_author__ = “Xiangyu Gao”
-__copyright__ = “Copyright 2021, The Radar Perception project”
-__credits__ = [“Xiangyu Gao”]
-__license__ = “MPL 2.0”
-__version__ = “0.1.0”
-__maintainer__ = “Xiangyu Gao”
-__email__ = “xygao@uw.edu”
-__status__ = “Dev”
+_author__ = "Xiangyu Gao"
+__copyright__ = "Copyright 2021, The Radar Perception project"
+__credits__ = ["Xiangyu Gao"]
+__license__ = "MPL 2.0"
+__version__ = "0.1.0"
+__maintainer__ = "Xiangyu Gao"
+__email__ = "xygao@uw.edu"
+__status__ = "Dev"
+
 
 def load_data(data_sets, if_shuffle=False):
     """
