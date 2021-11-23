@@ -4,7 +4,6 @@ import logging
 import numpy as np
 import tensorflow.compat.v1 as tf
 
-
 from classifier.networks import VGG16
 from classifier.utils import fetch_data, mini_batch, get_session, fetch_batch
 from config.classifier_config import network_config
