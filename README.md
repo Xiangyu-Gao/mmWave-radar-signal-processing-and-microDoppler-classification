@@ -64,9 +64,7 @@ MATLAB, Python 3.6, Tensorflow 2.0, Jupyter Notebook
 ## Train and Test VGG16 classifier 
 1. Download the template training data, testing data, and trained model from the Google Drive with below link:
     ```
-    https://drive.google.com/file/d/1Lbfd5h8bJASUcPU6_YJ-7JnGcfJdaocy/view?usp=sharing
-    https://drive.google.com/file/d/1fZQw1uUCwAa-rW_cvX4I0Nx2OaBHW9Ib/view?usp=sharing 
-    https://drive.google.com/file/d/1qYIlSGqfva4S476ADKXTrQV2uXIH1mK6/view?usp=sharing
+    https://drive.google.com/drive/folders/1CC3nluGDral__geL6zIzCK2t5Jrhfwex?usp=sharing
     ```
     *Note that we select **part of our training and testing set** for your use here and the model was trainied with **whole complete** training set*. 
 
