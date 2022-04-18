@@ -92,4 +92,4 @@ MATLAB, Python 3.6, Tensorflow 2.0, Jupyter Notebook
     ```
  
  ## License
- mmWave-radar-signal-processing-and-microDoppler-classification is release under MIT license (see LICENSE).
+ mmWave-radar-signal-processing-and-microDoppler-classification is released under MIT license (see LICENSE).
