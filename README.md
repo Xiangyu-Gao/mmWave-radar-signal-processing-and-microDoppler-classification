@@ -97,3 +97,10 @@ MATLAB, Python 3.6, Tensorflow 2.0, Jupyter Notebook
  
  ## License
  mmWave-radar-signal-processing-and-microDoppler-classification is released under MIT license (see LICENSE).
+ 
+ ## Acknowlegement
+This project is not possible without multiple great opensourced codebase and dataset. We list some notable examples below.  
+
+* [raw_ADC_radar_dataset_for_automotive_object_detection](https://github.com/Xiangyu-Gao/Raw_ADC_radar_dataset_for_automotive_object_detection)
+* [raw_2D_MIMO_radar_dataset_for_carry_object_detection](https://github.com/Xiangyu-Gao/Raw_2D_MIMO_radar_dataset_for_carry_object_detection)
+
