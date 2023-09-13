@@ -8,7 +8,7 @@ booktitle={2019 53rd Asilomar Conference on Signals, Systems, and Computers},
 title={Experiments with mmWave Automotive Radar Test-bed}, 
 year={2019},  volume={},  number={},  pages={1-6},  doi={10.1109/IEEECONF44664.2019.9048939}}
 ```
-## Update
+## Important Updates
 ***(June 18, 2022) A script for reading binary file has been created [read_bin.m](read_bin.m).***
 
 ***(June 9, 2022) One raw binary file named '2019_04_30_pbms002_raw_900fs.zip' can be downloaded [here](https://drive.google.com/drive/folders/1CC3nluGDral__geL6zIzCK2t5Jrhfwex?usp=sharing) for your use. It contains 900 frames with the same radar configuration as the data used below.***
