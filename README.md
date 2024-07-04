@@ -15,11 +15,6 @@ year={2019},  volume={},  number={},  pages={1-6},  doi={10.1109/IEEECONF44664.2
 
 ***(Nov 22, 2021) NEW!!! The micro-Dooler classification part has been updated***
 
-## Contact
-Any questions or suggestions are welcome!
-
-Xiangyu Gao xygao@uw.edu
-
 ## Software requirement
 MATLAB, Python 3.6, Tensorflow 2.0, Jupyter Notebook
 
